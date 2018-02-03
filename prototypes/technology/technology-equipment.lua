@@ -6,7 +6,7 @@ data:extend(
     icon = "__base__/graphics/technology/power-armor-mk2.png",
     icon_size = 128,
     --prerequisites = {"power-armor-2", "advanced-electronics-2", "speed-module-3", "effectivity-module-3", "titanium-processing", "rocket-silo"},
-    prerequisites = {"titanium-processing", "rocket-silo"},
+    prerequisites = {"titanium-processing", "rocket-silo", "power-armor-2"},
     effects =
     {
       {

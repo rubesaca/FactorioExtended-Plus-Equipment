@@ -1,5 +1,4 @@
-data:extend(
-{
+data:extend({
   {
     type = "energy-shield-equipment",
     name = "energy-shield-mk3-equipment",
@@ -27,6 +26,7 @@ data:extend(
     energy_per_shield = "40kJ",
     categories = {"armor"}
   },
+  
   {
     type = "battery-equipment",
     name = "battery-mk3-equipment",
@@ -53,6 +53,7 @@ data:extend(
     },
     categories = {"armor"}
   },
+  
   {
     type = "generator-equipment",
     name = "fusion-reactor-mk2-equipment",
@@ -77,13 +78,14 @@ data:extend(
     power = "3000kW",
     categories = {"armor"}
   },
+  
   {
     type = "roboport-equipment",
     name = "personal-roboport-mk3-equipment",
     take_result = "personal-roboport-mk3-equipment",
     sprite =
     {
-      filename = "__FactorioExtended-Equipment__/graphics/equipment/personal-roboport-mk2-equipment.png",
+      filename = "__FactorioExtended-Equipment__/graphics/equipment/personal-roboport-mk3-equipment.png",
       width = 64,
       height = 64,
       priority = "medium"

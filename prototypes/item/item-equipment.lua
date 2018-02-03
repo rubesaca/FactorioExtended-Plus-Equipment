@@ -1,5 +1,4 @@
-data:extend(
-{
+data:extend({
   {
     type = "armor",
     name = "power-armor-mk3",
@@ -36,6 +35,7 @@ data:extend(
     equipment_grid = "xlarge-equipment-grid",
     inventory_size_bonus = 40
   },
+  
   {
     type = "item",
     name = "fusion-reactor-mk2-equipment",
@@ -47,6 +47,7 @@ data:extend(
     order = "b-a",
     stack_size = 20
   },
+  
   {
     type = "item",
     name = "energy-shield-mk3-equipment",
@@ -59,6 +60,7 @@ data:extend(
     stack_size = 50,
     default_request_amount = 10
   },
+  
   {
     type = "item",
     name = "battery-mk3-equipment",
@@ -71,10 +73,11 @@ data:extend(
     stack_size = 50,
     default_request_amount = 10
   },
+  
   {
     type = "item",
     name = "personal-roboport-mk3-equipment",
-    icon = "__FactorioExtended-Equipment__/graphics/icons/personal-roboport-mk2-equipment.png",
+    icon = "__FactorioExtended-Equipment__/graphics/icons/personal-roboport-mk3-equipment.png",
     icon_size = 32,
     placed_as_equipment_result = "personal-roboport-mk3-equipment",
     flags = {"goes-to-main-inventory"},

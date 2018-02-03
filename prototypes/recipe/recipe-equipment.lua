@@ -9,7 +9,7 @@ data:extend(
     {
       {"power-armor-mk2", 1},
       {"titanium-alloy", 100},
-      {"advanced-circuit", 100}, 
+      {"processing-unit", 100}, 
       {"rocket-control-unit", 50},
       {"low-density-structure", 50}
     },
