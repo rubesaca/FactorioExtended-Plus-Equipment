@@ -1,12 +1,12 @@
 {
   "name": "FactorioExtended-Equipment",
   "version": "0.3.2",
-	"factorio_version": "0.16",
-	"date": "2018-02-02",
+  "factorio_version": "0.16",
+  "date": "2018-02-02",
   "title": "FactorioExtended-Equipment",
   "author": "Nath Gamer",
   "contributers": "jimmyjon711",
-	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
   "description": "Brings improved varients of most of the armor equipment!",
-	"dependencies": ["base >= 0.16.20", "FactorioExtended-Core >= 0.3.2"]
+  "dependencies": ["base >= 0.16.20", "FactorioExtended-Core >= 0.3.2"]
 }
