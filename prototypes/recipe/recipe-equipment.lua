@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "recipe",
-    energy_required = 0.5,
+    energy_required = 40,
     name = "power-armor-mk3",
     enabled = false,
     ingredients =
@@ -22,7 +22,7 @@ data:extend(
     energy_required = 10,
     ingredients =
     {
-      {"energy-shield-mk2-equipment", 5},
+      {"energy-shield-mk2-equipment", 10},
       {"processing-unit", 20}
     },
     result = "energy-shield-mk3-equipment"
@@ -31,7 +31,7 @@ data:extend(
     type = "recipe",
     name = "battery-mk3-equipment",
     enabled = false,
-    energy_required = 5,
+    energy_required = 10,
     ingredients =
     {
       {"battery-mk2-equipment", 10},
@@ -66,5 +66,19 @@ data:extend(
       {"battery-mk2-equipment", 20},
     },
     result = "personal-roboport-mk3-equipment"
+  },
+  {
+    type = "recipe",
+    name = "exoskeleton-mk2-equipment",
+    enabled = false,
+    energy_required = 20,
+    ingredients =
+    { 
+      {"exoskeleton-equipment", 2},
+      {"processing-unit", 10},
+      {"electric-engine-unit", 30},
+      {"titanium-alloy", 20},
+    },
+    result = "exoskeleton-mk2-equipment"
   }
 })

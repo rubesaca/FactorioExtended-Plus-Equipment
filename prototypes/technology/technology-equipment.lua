@@ -5,7 +5,6 @@ data:extend(
     name = "power-armor-3",
     icon = "__base__/graphics/technology/power-armor-mk2.png",
     icon_size = 128,
-    --prerequisites = {"power-armor-2", "advanced-electronics-2", "speed-module-3", "effectivity-module-3", "titanium-processing", "rocket-silo"},
     prerequisites = {"titanium-processing", "rocket-silo", "power-armor-2"},
     effects =
     {
@@ -32,7 +31,7 @@ data:extend(
     },
     unit =
     {
-      count = 800,
+      count = 400,
       ingredients =
       {
         {"science-pack-1", 1}, 
@@ -43,6 +42,33 @@ data:extend(
       },
       time = 45
     },
-    order = "f-b-e-a"
+    order = "g-c-c"
+  },
+  {
+    type = "technology",
+    name = "exoskeleton-equipment-2",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/exoskeleton-equipment.png",
+    prerequisites = {"exoskeleton-equipment", "titanium-processing"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "exoskeleton-mk2-equipment"
+      }
+    },
+    unit =
+    {
+      count = 200,
+      ingredients = 
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1},
+        {"high-tech-science-pack", 1}
+      },
+      time = 30
+    },
+    order = "g-i"
   }
 })

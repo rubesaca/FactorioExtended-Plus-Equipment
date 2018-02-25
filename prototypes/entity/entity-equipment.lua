@@ -4,7 +4,7 @@ data:extend({
     name = "energy-shield-mk3-equipment",
     sprite =
     {
-      filename = "__FactorioExtended-Equipment__/graphics/equipment/energy-shield-mk3-equipment.png",
+      filename = "__FactorioExtended-Plus-Equipment__/graphics/equipment/energy-shield-mk3-equipment.png",
       width = 64,
       height = 64,
       priority = "medium"
@@ -26,13 +26,12 @@ data:extend({
     energy_per_shield = "40kJ",
     categories = {"armor"}
   },
-  
   {
     type = "battery-equipment",
     name = "battery-mk3-equipment",
     sprite =
     {
-      filename = "__FactorioExtended-Equipment__/graphics/equipment/battery-mk3-equipment.png",
+      filename = "__FactorioExtended-Plus-Equipment__/graphics/equipment/battery-mk3-equipment.png",
       width = 32,
       height = 64,
       priority = "medium"
@@ -53,13 +52,12 @@ data:extend({
     },
     categories = {"armor"}
   },
-  
   {
     type = "generator-equipment",
     name = "fusion-reactor-mk2-equipment",
     sprite =
     {
-      filename = "__FactorioExtended-Equipment__/graphics/equipment/fusion-reactor-mk2-equipment.png",
+      filename = "__FactorioExtended-Plus-Equipment__/graphics/equipment/fusion-reactor-mk2-equipment.png",
       width = 128,
       height = 128,
       priority = "medium"
@@ -78,14 +76,13 @@ data:extend({
     power = "3000kW",
     categories = {"armor"}
   },
-  
   {
     type = "roboport-equipment",
     name = "personal-roboport-mk3-equipment",
     take_result = "personal-roboport-mk3-equipment",
     sprite =
     {
-      filename = "__FactorioExtended-Equipment__/graphics/equipment/personal-roboport-mk3-equipment.png",
+      filename = "__FactorioExtended-Plus-Equipment__/graphics/equipment/personal-roboport-mk3-equipment.png",
       width = 64,
       height = 64,
       priority = "medium"
@@ -124,9 +121,34 @@ data:extend({
     recharging_light = {intensity = 0.4, size = 5},
     stationing_offset = {0, -0.6},
     charging_station_shift = {0, 0.5},
-    charging_station_count = 4,
+    charging_station_count = 6,
     charging_distance = 1.6,
     charging_threshold_distance = 5,
+    categories = {"armor"}
+  },
+  {
+    type = "movement-bonus-equipment",
+    name = "exoskeleton-mk2-equipment",
+    sprite =
+    {
+      filename = "__FactorioExtended-Plus-Equipment__/graphics/equipment/exoskeleton-mk2-equipment.png",
+      width = 64,
+      height = 128,
+      priority = "medium"
+    },
+    shape =
+    {
+      width = 2,
+      height = 4,
+      type = "full"
+    },
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input"
+    },
+    energy_consumption = "400kW",
+    movement_bonus = 0.5,
     categories = {"armor"}
   }
 })
