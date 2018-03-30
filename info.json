@@ -1,11 +1,11 @@
 {
   "name": "FactorioExtended-Plus-Equipment",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "factorio_version": "0.16",
-  "date": "2018-02-25",
+  "date": "2018-03-30",
   "title": "FactorioExtended Plus-Equipment",
   "author": "jimmyjon711 (Original Author: Nath Gamer)",
   "homepage": "",
   "description": "",
-  "dependencies": ["base >= 0.16.20", "FactorioExtended-Plus-Core >= 0.1.0"]
+  "dependencies": ["base >= 0.16.20", "FactorioExtended-Plus-Core >= 0.1.2"]
 }

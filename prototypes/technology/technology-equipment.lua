@@ -31,13 +31,14 @@ data:extend(
     },
     unit =
     {
-      count = 400,
+      count = 800,
       ingredients =
       {
         {"science-pack-1", 1}, 
         {"science-pack-2", 1}, 
         {"science-pack-3", 1},
         {"military-science-pack", 1}, 
+        {"production-science-pack", 1},
         {"high-tech-science-pack", 1}
       },
       time = 45
