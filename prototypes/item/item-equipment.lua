@@ -4,7 +4,6 @@ data:extend({
     name = "power-armor-mk3",
     icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/power-armor-mk3.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory"},
     resistances =
     {
       {
@@ -41,7 +40,6 @@ data:extend({
     icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/fusion-reactor-mk2-equipment.png",
     icon_size = 32,
     placed_as_equipment_result = "fusion-reactor-mk2-equipment",
-    flags = {"goes-to-main-inventory"},
     subgroup = "fb-equipment",
     order = "b-a",
     stack_size = 20
@@ -52,7 +50,6 @@ data:extend({
     icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/energy-shield-mk3-equipment.png",
     icon_size = 32,
     placed_as_equipment_result = "energy-shield-mk3-equipment",
-    flags = {"goes-to-main-inventory"},
     subgroup = "fb-equipment",
     order = "c-a",
     stack_size = 50,
@@ -64,7 +61,6 @@ data:extend({
     icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/battery-mk3-equipment.png",
     icon_size = 32,
     placed_as_equipment_result = "battery-mk3-equipment",
-    flags = {"goes-to-main-inventory"},
     subgroup = "fb-equipment",
     order = "d-a",
     stack_size = 50,
@@ -76,7 +72,6 @@ data:extend({
     icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/personal-roboport-mk3-equipment.png",
     icon_size = 32,
     placed_as_equipment_result = "personal-roboport-mk3-equipment",
-    flags = {"goes-to-main-inventory"},
     subgroup = "fb-equipment",
     order = "e-a",
     stack_size = 5
@@ -87,7 +82,6 @@ data:extend({
     icon = "__base__/graphics/icons/exoskeleton-equipment.png",
     icon_size = 32,
     placed_as_equipment_result = "exoskeleton-mk2-equipment",
-    flags = {"goes-to-main-inventory"},
     subgroup = "fb-equipment",
     order = "e-b",
     tint = {r=0.4, g=0.804, b=0.667, a=0.8},
