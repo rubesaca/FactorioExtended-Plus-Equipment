@@ -45,10 +45,10 @@ data:extend({
     energy_source =
     {
       type = "electric",
-      buffer_capacity = "500000kJ",
+      buffer_capacity = "500MJ",
       input_flow_limit = "5GW",
       output_flow_limit = "5GW",
-      usage_priority = "terciary"
+      usage_priority = "tertiary"
     },
     categories = {"armor"}
   },
