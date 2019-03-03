@@ -27,10 +27,10 @@ data:extend({
         percent = 85
       }
     },
-    durability = 25000,
     subgroup = "fb-equipment",
     order = "a-a",
     stack_size = 1,
+    infinite = true,
     equipment_grid = "xlarge-equipment-grid",
     inventory_size_bonus = 40
   },
