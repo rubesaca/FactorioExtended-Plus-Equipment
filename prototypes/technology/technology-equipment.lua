@@ -2,10 +2,10 @@ data:extend(
 {
   {
     type = "technology",
-    name = "power-armor-3",
+    name = "power-armor-mk3",
     icon = "__base__/graphics/technology/power-armor-mk2.png",
     icon_size = 128,
-    prerequisites = {"titanium-processing", "rocket-silo", "power-armor-2"},
+    prerequisites = {"titanium-processing", "rocket-silo", "power-armor-mk2"},
     effects =
     {
       {
