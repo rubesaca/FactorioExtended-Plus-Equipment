@@ -8,5 +8,5 @@
   "homepage": "",
   "contributers": "pditterline",
   "description": "",
-  "dependencies": ["base >= 0.17.00", "FactorioExtended-Plus-Core >= 0.2.0"]
+  "dependencies": ["base >= 0.17.35", "FactorioExtended-Plus-Core >= 0.2.0"]
 }
