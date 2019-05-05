@@ -18,3 +18,8 @@ Version: 0.2.2
 Date: 05. 03. 2019
   Changes :
     - Change references from power-armor-2 to power-armor-mk2 for factorio 0.17.35
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 05. 05. 2019
+  Changes :
+    - Changing Factorio version back to 0.17 to see if that fixes in game mod portal weirdness
