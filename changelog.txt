@@ -23,3 +23,8 @@ Version: 0.2.3
 Date: 05. 05. 2019
   Changes :
     - Changing Factorio version back to 0.17 to see if that fixes in game mod portal weirdness
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 05. 10. 2019
+  Changes :
+    - Removed old migration files, and fixed migration for power-armor-mk3 technologies
