@@ -4,7 +4,7 @@ for index, force in pairs(game.forces) do
 
   -- Unlocking items if user was using original authors mod and has already researched power armor mk3
   -- In the original mod the stuff below unlocks with power armor mk4
-  if technologies["power-armor-3"].researched then
+  if technologies["power-armor-3"] ~= nil and technologies["power-armor-3"].researched then
     recipes["personal-roboport-mk3-equipment"].enabled = true
     recipes["personal-roboport-mk3-equipment"].reload()
 
@@ -16,5 +16,7 @@ for index, force in pairs(game.forces) do
 
     recipes["battery-mk3-equipment"].enabled = true
     recipes["battery-mk3-equipment"].reload()
+
+    technologies["power-armor-mk3"].researched = true
   end
 end
