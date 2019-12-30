@@ -1,30 +1,38 @@
----------------------------------------------------------------------------------------------------
-Version: 0.1.2
-Date: 03. 30. 2018
+Version: 0.3.0
+Date: 30. 12. 2019
   Changes :
-    - Re-balancing science
+    - Added thumbnail
+    - Reordered changelog.txt
+    - Added Personal Laser Defense Mk2
+    - Added Night Vision Equipment Mk2
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.0
-Date: 03. 01. 2019
+Version: 0.2.4
+Date: 05. 10. 2019
   Changes :
-    - Updating to work with 0.17
----------------------------------------------------------------------------------------------------
-Version: 0.2.1
-Date: 03. 03. 2019
-  Changes :
-    - Updating graphics and properties
----------------------------------------------------------------------------------------------------
-Version: 0.2.2
-Date: 05. 03. 2019
-  Changes :
-    - Change references from power-armor-2 to power-armor-mk2 for factorio 0.17.35
+    - Removed old migration files, and fixed migration for power-armor-mk3 technologies
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 05. 05. 2019
   Changes :
     - Changing Factorio version back to 0.17 to see if that fixes in game mod portal weirdness
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.4
-Date: 05. 10. 2019
+Version: 0.2.2
+Date: 05. 03. 2019
   Changes :
-    - Removed old migration files, and fixed migration for power-armor-mk3 technologies
+    - Change references from power-armor-2 to power-armor-mk2 for factorio 0.17.35
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 03. 03. 2019
+  Changes :
+    - Updating graphics and properties
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 03. 01. 2019
+  Changes :
+    - Updating to work with 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 03. 30. 2018
+  Changes :
+    - Re-balancing science
+---------------------------------------------------------------------------------------------------

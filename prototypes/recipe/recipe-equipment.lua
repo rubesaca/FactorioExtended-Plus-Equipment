@@ -80,5 +80,33 @@ data:extend(
       {"titanium-alloy", 20},
     },
     result = "exoskeleton-mk2-equipment"
+  },
+  {
+    type = "recipe",
+    name = "personal-laser-defense-equipment-mk2",
+    enabled = false,
+    energy_required = 20,
+    ingredients =
+    { 
+      {"battery-mk2-equipment", 1},
+      {"laser-turret-mk2", 5},
+      {"processing-unit", 5},
+      {"low-density-structure", 5},
+    },
+    result = "personal-laser-defense-equipment-mk2"
+  },
+  {
+    type = "recipe",
+    name = "night-vision-equipment-mk2",
+    enabled = false,
+    energy_required = 20,
+    ingredients =
+    { 
+      {"night-vision-equipment", 1},
+      {"titanium-alloy", 20},
+      {"processing-unit", 1},
+    },
+    result = "night-vision-equipment-mk2"
   }
+
 })

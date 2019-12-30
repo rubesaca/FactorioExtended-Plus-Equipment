@@ -86,5 +86,27 @@ data:extend({
     order = "e-b",
     tint = {r=0.4, g=0.804, b=0.667, a=0.8},
     stack_size = 10
+  },
+  {
+    type = "item",
+    name = "personal-laser-defense-equipment-mk2",
+    icons = {{ icon="__base__/graphics/icons/personal-laser-defense-equipment.png", tint={r=0.4, g=0.804, b=0.667, a=0.8}}},
+    icon_size = 32,
+    placed_as_equipment_result = "personal-laser-defense-equipment-mk2",
+    subgroup = "fb-equipment",
+    order = "e-b",
+    tint = {r=0.4, g=0.804, b=0.667, a=0.8},
+    stack_size = 10
+  },
+  {
+    type = "item",
+    name = "night-vision-equipment-mk2",
+    icons = {{ icon="__base__/graphics/icons/night-vision-equipment.png", tint={r=0.4, g=0.804, b=0.667, a=0.8}}},
+    icon_size = 32,
+    placed_as_equipment_result = "night-vision-equipment-mk2",
+    subgroup = "fb-equipment",
+    order = "e-b",
+    tint = {r=0.4, g=0.804, b=0.667, a=0.8},
+    stack_size = 10
   }
 })
