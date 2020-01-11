@@ -152,3 +152,26 @@ data:extend({
     categories = {"armor"}
   }
 })
+
+local pld = table.deepcopy(data.raw["active-defense-equipment"]["personal-laser-defense-equipment"])
+pld.name = "personal-laser-defense-equipment-mk2"
+pld.attack_parameters.cooldown = 30
+pld.attack_parameters.ammo_type.action.action_delivery.max_length = 20
+pld.attack_parameters.ammo_type.energy_consumption = "80kJ"
+pld.attack_parameters.damage_modifier = 4
+pld.attack_parameters.range = 20
+pld.sprite.tint = {r=0.4, g=0.804, b=0.667, a=0.8}
+pld.energy_source.buffer_capacity = "400kJ"
+
+data:extend({ pld })
+
+local nve = table.deepcopy(data.raw["night-vision-equipment"]["night-vision-equipment"])
+nve.name = "night-vision-equipment-mk2"
+nve.sprite.tint = {r=0.4, g=0.804, b=0.667, a=0.8}
+nve.darkness_to_turn_on = 0.25
+nve.energy_input = "25kW"
+nve.tint = {r = 0, g = 0, b = 0, a = 0}
+nve.desaturation_params = { smoothstep_min = 0.1, smoothstep_max = 0.7, minimum = 0.7, maximum = 1.0 }
+nve.light_params = { smoothstep_min = 0.1, smoothstep_max = 0.7, minimum = 1.0, maximum = 1.0, }
+
+data:extend({ nve })
