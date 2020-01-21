@@ -6,7 +6,7 @@
   "title": "FactorioExtended Plus-Equipment",
   "author": "jimmyjon711 (Original Author: Nath Gamer)",
   "homepage": "",
-  "contributers": "pditterline",
+  "contributers": "pditterline, billbo99",
   "description": "",
   "dependencies": ["base >= 0.17.35", "FactorioExtended-Plus-Core >= 0.2.0"]
 }
