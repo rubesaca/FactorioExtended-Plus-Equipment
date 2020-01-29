@@ -1,40 +1,6 @@
 data:extend(
     {
         {
-            type = "armor",
-            name = "power-armor-mk3",
-            icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/power-armor-mk3.png",
-            icon_size = 32,
-            resistances = {
-                {
-                    type = "physical",
-                    decrease = 12,
-                    percent = 50
-                },
-                {
-                    type = "acid",
-                    decrease = 13,
-                    percent = 50
-                },
-                {
-                    type = "explosion",
-                    decrease = 25,
-                    percent = 70
-                },
-                {
-                    type = "fire",
-                    decrease = 0,
-                    percent = 85
-                }
-            },
-            subgroup = "fb-equipment",
-            order = "a-a",
-            stack_size = 1,
-            infinite = true,
-            equipment_grid = "xlarge-equipment-grid",
-            inventory_size_bonus = 40
-        },
-        {
             type = "item",
             name = "fusion-reactor-mk2-equipment",
             icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/fusion-reactor-mk2-equipment.png",
