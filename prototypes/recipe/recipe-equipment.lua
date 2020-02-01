@@ -81,6 +81,7 @@ data:extend(
             enabled = false,
             energy_required = 20,
             ingredients = {
+                {"personal-laser-defense-equipment", 2},
                 {"battery-mk2-equipment", 1},
                 {"laser-turret-mk2", 5},
                 {"processing-unit", 5},
