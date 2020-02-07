@@ -3,6 +3,7 @@ Version: 0.4.2
 Date: 01. 02. 2020
   Changes :
     - personal-laser-defense-equipment-mk2 recipe fix
+    - personal-roboport-mk3-equipment has corrected charging_station_count = 6
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.1
 Date: 29. 01. 2020
