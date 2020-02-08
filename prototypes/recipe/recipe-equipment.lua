@@ -83,7 +83,7 @@ data:extend(
             ingredients = {
                 {"personal-laser-defense-equipment", 2},
                 {"battery-mk2-equipment", 1},
-                {"laser-turret-mk2", 5},
+                {"laser-turret-mk2", 2},
                 {"processing-unit", 5},
                 {"low-density-structure", 5}
             },
