@@ -16,6 +16,7 @@ local pa3 = table.deepcopy(data.raw["armor"]["power-armor-mk2"])
 pa3.name = "power-armor-mk3"
 pa3.icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/power-armor-mk3.png"
 pa3.icon_size = 32
+pa3.icon_mipmaps = nil
 pa3.equipment_grid = "xlarge-equipment-grid"
 pa3.inventory_size_bonus = 40
 pa3.subgroup = "fb-equipment"
