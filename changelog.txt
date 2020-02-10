@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 01. 02. 2020
+  Changes :
+    - personal-laser-defense-equipment-mk2 recipe fix
+    - personal-roboport-mk3-equipment has corrected charging_station_count = 6
+    - personal-laser-defense-equipment-mk2 reduce laser-turret-mk2 from 5 to 2
+  Fixed:
+    - Cleared icon_mipmaps warnings, until FE+ graphics are updated
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 29. 01. 2020
+  Changes :
+    - General code refactor
+---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 21. 01. 2020
   Changes :
