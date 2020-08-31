@@ -15,8 +15,8 @@ data:extend({eg})
 local pa3 = table.deepcopy(data.raw["armor"]["power-armor-mk2"])
 pa3.name = "power-armor-mk3"
 pa3.icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/power-armor-mk3.png"
-pa3.icon_size = 32
-pa3.icon_mipmaps = nil
+pa3.icon_size = 64
+pa3.icon_mipmaps = 4
 pa3.equipment_grid = "xlarge-equipment-grid"
 pa3.inventory_size_bonus = 40
 pa3.subgroup = "fb-equipment"
@@ -29,14 +29,14 @@ pa3.resistances = {
 }
 
 for _, animation in ipairs(data.raw["character"]["character"]["animations"]) do
-  if animation.armors then
-    for _, armor in ipairs(animation.armors) do
-      if armor == "power-armor-mk2" then
-        animation.armors[#animation.armors + 1] = "power-armor-mk3"
-        break
-      end
+    if animation.armors then
+        for _, armor in ipairs(animation.armors) do
+            if armor == "power-armor-mk2" then
+                animation.armors[#animation.armors + 1] = "power-armor-mk3"
+                break
+            end
+        end
     end
-  end
 end
 
 data:extend({pa3})

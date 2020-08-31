@@ -4,6 +4,7 @@
 --
 local nve = table.deepcopy(data.raw["night-vision-equipment"]["night-vision-equipment"])
 nve.name = "night-vision-equipment-mk2"
+nve.sprite.filename = "__FactorioExtended-Plus-Equipment__/graphics/equipment/night-vision-equipment-mk2.png"
 nve.sprite.tint = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}
 nve.darkness_to_turn_on = 0.25
 nve.energy_input = "25kW"
