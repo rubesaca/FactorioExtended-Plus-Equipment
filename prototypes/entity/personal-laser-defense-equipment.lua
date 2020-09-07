@@ -8,6 +8,7 @@
 --
 local pld = table.deepcopy(data.raw["active-defense-equipment"]["personal-laser-defense-equipment"])
 pld.name = "personal-laser-defense-equipment-mk2"
+pld.sprite.filename = "__FactorioExtended-Plus-Equipment__/graphics/equipment/personal-laser-defense-equipment-mk2.png"
 pld.attack_parameters.cooldown = 30
 pld.attack_parameters.ammo_type.action.action_delivery.max_length = 20
 pld.attack_parameters.ammo_type.energy_consumption = "80kJ"
