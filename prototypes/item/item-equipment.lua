@@ -27,7 +27,7 @@ for _, item in pairs(items) do
     CloneWithTint(item.source, item.name, item.subgroup, item.order, item.tint, item.icon_name, item.itype)
 end
 
-log("a")
+-- log("a")
 -- data:extend(
 --     {
 --         {
