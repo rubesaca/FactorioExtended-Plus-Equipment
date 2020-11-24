@@ -1,7 +1,7 @@
 {
     "name": "FactorioExtended-Plus-Equipment",
-    "version": "1.0.0",
-    "factorio_version": "1.00",
+    "version": "1.1.0",
+    "factorio_version": "1.1",
     "date": "2020-09-07",
     "title": "FactorioExtended Plus-Equipment",
     "author": "jimmyjon711 (Original Author: Nath Gamer)",
@@ -9,8 +9,8 @@
     "contributers": "pditterline, billbo99",
     "description": "",
     "dependencies": [
-        "base >= 1.0.0",
-        "FactorioExtended-Plus-Core >= 1.0.0",
-        "FactorioExtended-Plus-Weaponry >= 1.0.0"
+        "base >= 1.1.0",
+        "FactorioExtended-Plus-Core >= 1.1.0",
+        "FactorioExtended-Plus-Weaponry >= 1.1.0"
     ]
 }

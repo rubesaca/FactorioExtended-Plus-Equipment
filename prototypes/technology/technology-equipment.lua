@@ -4,7 +4,7 @@ data:extend(
             type = "technology",
             name = "power-armor-mk3",
             icon = "__base__/graphics/technology/power-armor-mk2.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"titanium-processing", "rocket-silo", "power-armor-mk2"},
             effects = {
                 {
@@ -45,7 +45,7 @@ data:extend(
         {
             type = "technology",
             name = "exoskeleton-equipment-2",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/exoskeleton-equipment.png",
             prerequisites = {"exoskeleton-equipment", "titanium-processing"},
             effects = {
@@ -69,7 +69,7 @@ data:extend(
         {
             type = "technology",
             name = "personal-laser-defense-equipment-2",
-            icon_size = 128,
+            icon_size = 256,
             icons = {{icon = "__base__/graphics/technology/personal-laser-defense-equipment.png", tint = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}}},
             prerequisites = {"personal-laser-defense-equipment", "laser-turrets-2"},
             effects = {
@@ -93,7 +93,7 @@ data:extend(
         {
             type = "technology",
             name = "night-vision-equipment-2",
-            icon_size = 128,
+            icon_size = 256,
             icons = {{icon = "__base__/graphics/technology/night-vision-equipment.png", tint = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}}},
             prerequisites = {"night-vision-equipment", "titanium-processing"},
             effects = {
